@@ -22,7 +22,7 @@ export const Register = (setAlert) => {
       if (password !== password2) {
        setAlert('Passwords do not match','danger');
       } else {
-        console.log(formData);
+        console.log('Succes');
       }
     };
   
@@ -84,7 +84,7 @@ export const Register = (setAlert) => {
     )
 
 }
-Register.protoTypes={
+Register.propTypes={
   setAlert: PropTypes.func.isRequired,//ptfr
   
 

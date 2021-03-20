@@ -8,7 +8,7 @@ alerts.map(alert=>(
     {alert.msg}
     </div>
 ));
- Alert.protoTypes={
+ Alert.propTypes={
      alerts:PropTypes.array.isRequired
 
 
