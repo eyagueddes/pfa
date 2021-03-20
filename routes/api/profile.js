@@ -272,7 +272,7 @@ router.delete('/education/:edu_id', auth, async(req, res) => {
 //@route Get api/profile/github/:username
 //@desc get user repos from Github
 //@access public
-router.fet('/github/:username', (req, res) => {
+router.get('/github/:username', (req, res) => {
     try {
         const option = {
             uri: `https://api.github.com.users/${req.params.username}/repos?per_page=5&sort=created:asc&client_id=${config.get('githubClientId')}&client_secret=${config.get('githubSecret')}`,
