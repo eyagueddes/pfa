@@ -1,4 +1,4 @@
-import api from '../utils/api';
+
 import axios from 'axios';
 import { setAlert } from './alert';
 import {
@@ -8,7 +8,8 @@ import {
   AUTH_ERROR,
   LOGIN_SUCCESS,
   LOGIN_FAIL,
-  LOGOUT
+  LOGOUT,
+  CLEAR_PROFILE
 } from './types';
 import setAuthToken from '../utils/setAuthToken';
 // Load User
@@ -89,5 +90,6 @@ try{
 
 // Logout
 export const logout = () => dispatch => {
+  dispatch({type:CLEAR_PROFILE});
   dispatch ({type:LOGOUT});
-}
+};

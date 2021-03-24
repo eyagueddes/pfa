@@ -23,7 +23,7 @@ import {
       case GET_PROFILE:
       case UPDATE_PROFILE:
         return {
-          ...state,
+          ...state,//current state
           profile: payload,
           loading: false
         };
@@ -40,6 +40,15 @@ import {
           loading: false,
           profile: null
         };
+        case CLEAR_PROFILE:
+            return{
+                ...state,
+                profile:null,
+                repos:[],
+                loading:false,
+
+
+            };
         default:
             return state;
     }
