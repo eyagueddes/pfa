@@ -22,5 +22,9 @@ export const UPDATE_LIKES = 'UPDATE_LIKES';
 export const DELETE_POST = 'DELETE_POST';
 export const ADD_POST = 'ADD_POST';
 export const ADD_COMMENT = 'ADD_COMMENT';
+<<<<<<< HEAD
 export const REMOVE_COMMENT = 'REMOVE_COMMENT';
 export const APPROVE_POST = 'APPROVE_POST';
+=======
+export const REMOVE_COMMENT = 'REMOVE_COMMENT';
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54

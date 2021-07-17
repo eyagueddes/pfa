@@ -51,7 +51,10 @@ import {
         case LOGIN_FAIL:
         case REGISTER_FAIL:
         case LOGOUT:
+<<<<<<< HEAD
         case ACCOUNT_DELETED:
+=======
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
           localStorage.removeItem('token');
           return {
             ...state,

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import axios from 'axios';
 import {setAlert} from './alert'; 
 
@@ -218,3 +219,37 @@ export const deleteAccount = () => async dispatch => {
 
     
 };
+=======
+import api from '../utils/api';
+import { setAlert } from './alert';
+import axios from 'axios';
+
+import {
+  GET_PROFILE,
+  GET_PROFILES,
+  PROFILE_ERROR,
+  UPDATE_PROFILE,
+  CLEAR_PROFILE,
+  ACCOUNT_DELETED,
+  GET_REPOS,
+  NO_REPOS
+} from './types';
+
+// Get current users profile
+export const getCurrentProfile = () => async (dispatch) => {
+  try {
+    const res = await axios.get('/api/profile/me');
+
+    dispatch({
+      type: GET_PROFILE,
+      payload: res.data
+    });
+  } catch (err) {
+    dispatch({
+      type: PROFILE_ERROR,
+      payload: { msg: err.response.statusText, status: err.response.status }
+    });
+  }
+};
+ 
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54

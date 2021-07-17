@@ -21,7 +21,11 @@ export const Login = ({login,isAuthenticated}) => {
     };
   // Redirect if log in 
   if (isAuthenticated){
+<<<<<<< HEAD
     return <Redirect to="/posts"/>
+=======
+    return <Redirect to="/dashboard"/>
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
      }
     return (
         <Fragment>

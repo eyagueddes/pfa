@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "mongoURI": "mongodb+srv://eya:eyawael@cluster0.iig4n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     "jwtSecret" : "pfatoken",
     "githubClientId" : "e6cb5a159be007c1536c",
     "githubSecret":"727063e161709c33a945ddc347a9f06d9ede46ef"
+=======
+    "mongoURI": "mongodb+srv://eya:eyawael@cluster0.uzrg3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
 }

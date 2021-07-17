@@ -18,10 +18,13 @@ const UserSchema = new Schema({
   avatar: {
     type: String
   },
+<<<<<<< HEAD
   isAdmin: {
     type: Boolean,
     default: false
   },
+=======
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
   date: {
     type: Date,
     default: Date.now

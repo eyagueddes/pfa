@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+<<<<<<< HEAD
 const { check, validationResult } = require('express-validator/check');
 const auth = require('../../middleware/auth');
 
@@ -7,11 +8,14 @@ const Post = require('../../models/Post');
 const User = require('../../models/User');
 const Profile = require('../../models/Profile');
 
+=======
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
 
 //@route Get api/posts 
 //@desc Test route 
 //@access Public
 
+<<<<<<< HEAD
 router.post('/', [auth, [
         check('text', 'text is required').not().isEmpty()
 
@@ -247,4 +251,7 @@ router.post('/:id/approve', auth, async(req, res) => {
 });
 
 
+=======
+router.get('/', (req, res) => res.send('Posts route'));
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
 module.exports = router;

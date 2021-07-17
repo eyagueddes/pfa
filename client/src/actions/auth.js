@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import api from '../utils/api';
+=======
+
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
 import axios from 'axios';
 import { setAlert } from './alert';
 import {
@@ -82,7 +86,11 @@ try{
     }
 
 
+<<<<<<< HEAD
     dispatch(setAlert('Email or Password are Incorrect','danger'),{
+=======
+    dispatch({
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
         type:LOGIN_FAIL
     });
 }
@@ -90,6 +98,12 @@ try{
 
 // Logout
 export const logout = () => dispatch => {
+<<<<<<< HEAD
   dispatch ({type:CLEAR_PROFILE});
   dispatch ({type:LOGOUT});
   }
+=======
+  dispatch({type:CLEAR_PROFILE});
+  dispatch ({type:LOGOUT});
+};
+>>>>>>> e37222ed0fbc56feaef64eb4097374fcfeadfe54
