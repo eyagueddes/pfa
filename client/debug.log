@@ -1,0 +1,41 @@
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/204916.119:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\b4dbbd1d-aab7-4848-807c-4d3e1503921c.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\58841452-a020-487b-800b-ce834d9e766b.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\0e73994b-7b0f-48f4-979a-fdd01749cff3.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\6b153fb8-f783-4d21-a8b1-d6ce55ab1b54.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\ff3e2123-0f69-431a-a36f-8048ace5dad8.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\154d24c2-2885-4ad2-bb08-9e90a7349275.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\6218e9c9-521f-411d-bc86-9099023c83ea.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\70e7bc04-18c2-4286-a4b3-faea112882eb.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\84006c15-c4b8-48f9-b675-8adbe9fe19d7.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\7d7c6fa9-2646-419a-808a-cda7c7f13db7.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\d1974507-9418-4b37-8cfe-2861e8c2a6c6.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\45d791ba-b4a0-4d47-bd70-fa0d66136fcf.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\wael hasnaoui\AppData\Local\Google\Chrome\User Data\Crashpad\reports\a23a8ac4-255d-4a89-83bb-9bd5d978a087.dmp: The system cannot find the file specified. (0x2)
+[0513/205916.133:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0517/160525.037:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
